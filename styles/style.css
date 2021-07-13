@@ -1,6 +1,43 @@
 /* fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
 
+/* menu header/ logo/ profile pic section */
+
+.nav-menubar{
+    background-color: #562EFF;
+    height: 94px;
+    padding-top: 35px;
+}
+
+.nav-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.idea{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.idea span{
+    margin-left: 16px;
+    font-size: 24px;
+}
+.idea img{
+    width: 40.42px;
+    height: 51px;
+}
+.button-area{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 36px;
+    align-items: center;
+}
+.button-area a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
 
 /* utilies/common styles/utilities */
 body{
